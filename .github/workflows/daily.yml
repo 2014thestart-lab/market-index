@@ -38,6 +38,9 @@ jobs:
       - name: Render
         run: python scripts/render.py
 
+      - name: Summarize
+        run: python scripts/summarize.py
+      
       - name: Commit
         run: |
           git config user.name  "market-index-bot"
