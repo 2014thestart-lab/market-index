@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:12:31+00:00",
+  "generated_at": "2026-09-07T18:16:37+00:00",
   "schema_version": 1,
   "source_note": "LLM token data derived from OpenRouter (openrouter.ai/rankings); GPU prices from the Vast.ai marketplace.",
   "coverage": {
@@ -9,7 +9,7 @@
     "gaps": []
   },
   "token_usage": {
-    "latest": 385620092960851.0,
+    "latest": 385620122702776.0,
     "latest_date": "2026-09-06",
     "n_points": 2,
     "change_pct": {
@@ -20,53 +20,53 @@
     "unit": "tokens/day"
   },
   "token_expenditure": {
-    "latest": 1.001808,
+    "latest": 1.002344,
     "latest_date": "2026-09-06",
     "n_points": 2,
     "change_pct": {
-      "dod": 0.18,
+      "dod": 0.23,
       "wow": null,
       "mom": null
     },
-    "blended_usd_per_mtok": 0.4871,
+    "blended_usd_per_mtok": 0.4808,
     "basis": "usage-weighted blended price, indexed to 1.0 at 2026-09-05"
   },
   "gpu_rental": {
     "latest_date": "2026-09-07",
     "classes": {
       "A100 PCIE": {
-        "median_usd_per_gpu_hour": 0.8216,
+        "median_usd_per_gpu_hour": 0.9339,
         "min_usd_per_gpu_hour": 0.2681,
-        "n_offers": 12
+        "n_offers": 17
       },
       "A100 SXM4": {
-        "median_usd_per_gpu_hour": 0.9073,
+        "median_usd_per_gpu_hour": 0.8281,
         "min_usd_per_gpu_hour": 0.3356,
-        "n_offers": 37
+        "n_offers": 27
       },
       "B200": {
         "median_usd_per_gpu_hour": 7.5052,
-        "min_usd_per_gpu_hour": 5.3135,
-        "n_offers": 19
+        "min_usd_per_gpu_hour": 4.3763,
+        "n_offers": 13
       },
       "H100 PCIE": {
-        "median_usd_per_gpu_hour": 2.9344,
-        "min_usd_per_gpu_hour": 2.1356,
-        "n_offers": 10
+        "median_usd_per_gpu_hour": 3.0675,
+        "min_usd_per_gpu_hour": 1.8669,
+        "n_offers": 18
       },
       "H100 SXM": {
-        "median_usd_per_gpu_hour": 2.0017,
+        "median_usd_per_gpu_hour": 1.8556,
         "min_usd_per_gpu_hour": 1.3356,
-        "n_offers": 24
+        "n_offers": 10
       }
     },
     "index": {
       "A100": {
-        "latest": 1.150377,
+        "latest": 1.172433,
         "latest_date": "2026-09-07",
         "n_points": 2,
         "change_pct": {
-          "dod": 15.04,
+          "dod": 17.24,
           "wow": null,
           "mom": null
         }
@@ -82,11 +82,11 @@
         }
       },
       "H100": {
-        "latest": 0.975909,
+        "latest": 0.973328,
         "latest_date": "2026-09-07",
         "n_points": 2,
         "change_pct": {
-          "dod": -2.41,
+          "dod": -2.67,
           "wow": null,
           "mom": null
         }
