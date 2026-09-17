@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:13:19+00:00",
+  "generated_at": "2026-09-17T17:39:01+00:00",
   "schema_version": 1,
   "source_note": "LLM token data derived from OpenRouter (openrouter.ai/rankings); GPU prices from the Vast.ai marketplace.",
   "coverage": {
@@ -20,54 +20,54 @@
     "unit": "tokens/day"
   },
   "token_expenditure": {
-    "latest": 0.994043,
+    "latest": 0.990354,
     "latest_date": "2026-09-16",
     "n_points": 12,
     "change_pct": {
-      "dod": 0.47,
-      "wow": -3.15,
+      "dod": 0.34,
+      "wow": -3.72,
       "mom": null
     },
-    "blended_usd_per_mtok": 0.449,
+    "blended_usd_per_mtok": 0.4418,
     "basis": "usage-weighted blended price, indexed to 1.0 at 2026-09-05"
   },
   "gpu_rental": {
     "latest_date": "2026-09-17",
     "classes": {
       "A100 PCIE": {
-        "median_usd_per_gpu_hour": 0.4694,
+        "median_usd_per_gpu_hour": 0.8022,
         "min_usd_per_gpu_hour": 0.3341,
-        "n_offers": 8
+        "n_offers": 9
       },
       "A100 SXM4": {
-        "median_usd_per_gpu_hour": 0.697,
-        "min_usd_per_gpu_hour": 0.3744,
-        "n_offers": 23
+        "median_usd_per_gpu_hour": 0.6033,
+        "min_usd_per_gpu_hour": 0.2939,
+        "n_offers": 20
       },
       "B200": {
         "median_usd_per_gpu_hour": 7.3776,
         "min_usd_per_gpu_hour": 5.626,
-        "n_offers": 7
+        "n_offers": 6
       },
       "H100 PCIE": {
-        "median_usd_per_gpu_hour": 2.9325,
-        "min_usd_per_gpu_hour": 2.0022,
+        "median_usd_per_gpu_hour": 2.4385,
+        "min_usd_per_gpu_hour": 2.0006,
         "n_offers": 10
       },
       "H100 SXM": {
-        "median_usd_per_gpu_hour": 3.1353,
+        "median_usd_per_gpu_hour": 3.136,
         "min_usd_per_gpu_hour": 2.0963,
-        "n_offers": 24
+        "n_offers": 13
       }
     },
     "index": {
       "A100": {
-        "latest": 0.776159,
+        "latest": 0.935236,
         "latest_date": "2026-09-17",
         "n_points": 12,
         "change_pct": {
-          "dod": -15.47,
-          "wow": -28.06,
+          "dod": 1.85,
+          "wow": -13.32,
           "mom": null
         }
       },
@@ -82,12 +82,12 @@
         }
       },
       "H100": {
-        "latest": 1.199653,
+        "latest": 1.102123,
         "latest_date": "2026-09-17",
         "n_points": 12,
         "change_pct": {
-          "dod": -2.18,
-          "wow": 18.48,
+          "dod": -10.13,
+          "wow": 8.85,
           "mom": null
         }
       }
