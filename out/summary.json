@@ -1,94 +1,94 @@
 {
-  "generated_at": "2026-11-13T20:30:24+00:00",
+  "generated_at": "2026-11-14T07:40:27+00:00",
   "schema_version": 1,
   "source_note": "LLM token data derived from OpenRouter (openrouter.ai/rankings); GPU prices from the Vast.ai marketplace.",
   "coverage": {
-    "complete_days": 69,
+    "complete_days": 70,
     "first_date": "2026-09-05",
-    "last_date": "2026-11-12",
+    "last_date": "2026-11-13",
     "gaps": []
   },
   "token_usage": {
-    "latest": 804214616777565.0,
-    "latest_date": "2026-11-12",
-    "n_points": 69,
+    "latest": 810029967219633.0,
+    "latest_date": "2026-11-13",
+    "n_points": 70,
     "change_pct": {
-      "dod": 0.26,
-      "wow": 3.82,
-      "mom": 33.96
+      "dod": 0.72,
+      "wow": 3.69,
+      "mom": 33.03
     },
     "unit": "tokens/day"
   },
   "token_expenditure": {
-    "latest": 0.846089,
-    "latest_date": "2026-11-12",
-    "n_points": 69,
+    "latest": 0.832565,
+    "latest_date": "2026-11-13",
+    "n_points": 70,
     "change_pct": {
-      "dod": -0.92,
-      "wow": -6.68,
-      "mom": -14.49
+      "dod": -1.26,
+      "wow": -7.53,
+      "mom": -16.21
     },
     "blended_usd_per_mtok": 0.3841,
     "basis": "usage-weighted blended price, indexed to 1.0 at 2026-09-05"
   },
   "gpu_rental": {
-    "latest_date": "2026-11-13",
+    "latest_date": "2026-11-14",
     "classes": {
       "A100 PCIE": {
-        "median_usd_per_gpu_hour": 0.7356,
-        "min_usd_per_gpu_hour": 0.4015,
-        "n_offers": 33
+        "median_usd_per_gpu_hour": 0.6603,
+        "min_usd_per_gpu_hour": 0.403,
+        "n_offers": 28
       },
       "A100 SXM4": {
         "median_usd_per_gpu_hour": 0.8022,
-        "min_usd_per_gpu_hour": 0.3745,
-        "n_offers": 28
+        "min_usd_per_gpu_hour": 0.3348,
+        "n_offers": 37
       },
       "B200": {
-        "median_usd_per_gpu_hour": 10.6276,
-        "min_usd_per_gpu_hour": 6.6757,
-        "n_offers": 15
+        "median_usd_per_gpu_hour": 10.001,
+        "min_usd_per_gpu_hour": 8.7505,
+        "n_offers": 17
       },
       "H100 PCIE": {
-        "median_usd_per_gpu_hour": 2.6689,
+        "median_usd_per_gpu_hour": 2.9108,
         "min_usd_per_gpu_hour": 2.5344,
         "n_offers": 5
       },
       "H100 SXM": {
-        "median_usd_per_gpu_hour": 2.7679,
-        "min_usd_per_gpu_hour": 1.7741,
-        "n_offers": 12
+        "median_usd_per_gpu_hour": 1.8415,
+        "min_usd_per_gpu_hour": 1.7337,
+        "n_offers": 17
       }
     },
     "index": {
       "A100": {
-        "latest": 1.023215,
-        "latest_date": "2026-11-13",
-        "n_points": 69,
+        "latest": 0.973138,
+        "latest_date": "2026-11-14",
+        "n_points": 70,
         "change_pct": {
-          "dod": 4.67,
-          "wow": -7.16,
-          "mom": 0.1
+          "dod": -4.89,
+          "wow": 5.25,
+          "mom": 1.25
         }
       },
       "B200": {
-        "latest": 1.416031,
-        "latest_date": "2026-11-13",
-        "n_points": 69,
+        "latest": 1.332547,
+        "latest_date": "2026-11-14",
+        "n_points": 70,
         "change_pct": {
-          "dod": 13.35,
-          "wow": 6.27,
-          "mom": 26.86
+          "dod": -5.9,
+          "wow": 14.28,
+          "mom": 19.38
         }
       },
       "H100": {
-        "latest": 1.0749,
-        "latest_date": "2026-11-13",
-        "n_points": 69,
+        "latest": 0.939565,
+        "latest_date": "2026-11-14",
+        "n_points": 70,
         "change_pct": {
-          "dod": 1.68,
-          "wow": -19.36,
-          "mom": -15.48
+          "dod": -12.59,
+          "wow": -19.89,
+          "mom": -13.96
         }
       }
     }
